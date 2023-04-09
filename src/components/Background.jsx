@@ -92,8 +92,8 @@ const Background = () => {
                             height: 0
                         },
                         position: {
-                            x: 0,
-                            y: 20
+                            x: 10,
+                            y: 0
                         }
                     }
                 }}
