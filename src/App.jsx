@@ -7,7 +7,7 @@ import slider3 from "./assets/img/slider3.jpg"
 import slider4 from "./assets/img/slider4.jpg"
 import slider5 from "./assets/img/slider5.jpg"
 import Swiperm from './components/Swiper'
-import personal from "./assets/img/personal1.jpg"
+import personal from "./assets/img/personal.jpg"
 
 function App() {
   const [count, setCount] = useState(0)
