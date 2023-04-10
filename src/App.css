@@ -118,7 +118,7 @@ nav {
   top: -200px;
   left: -250px;
   rotate: -45deg;
-  background-color: var(--secondary);
+  background: url(./assets/img/bg.avif);
   border-radius: 40px;
   box-shadow: 0 3px 5px #212121;
   display: flex;
@@ -127,8 +127,8 @@ nav {
 }
 
 .over__hero__in {
-  width: 97%;
-  height: 97%;
+  width: 93%;
+  height: 93%;
   background-color: var(--primary);
   border-radius: 40px;
   box-shadow: 0 1px 5px #212121;
