@@ -73,12 +73,9 @@ nav{
 }
 .slider {
   height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  opacity: 0;
+  opacity: 1;
 }
-.slider_one {
+/* .slider_one {
   animation: slider 60s infinite linear;
 }
 .slider_two {
@@ -92,7 +89,7 @@ nav{
 }
 .slider_five {
   animation: slider 60s infinite 48s linear;
-}
+} */
 
 @keyframes slider {
   0% {
