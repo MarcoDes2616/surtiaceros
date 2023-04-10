@@ -89,7 +89,7 @@ nav {
 
 .slider {
   height: 100%;
-  /* animation: slider 5s infinite .1s linear; */
+  animation: slider 5s infinite .1s linear;
 }
 
 

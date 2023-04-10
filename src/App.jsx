@@ -13,15 +13,15 @@ function App() {
   const [count, setCount] = useState(0)
   const slider = [slider1, slider2, slider3, slider4, slider5]
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     if (count == slider.length - 1) {
-  //       return setCount(0)
-  //     }
-  //     setCount(count + 1)
-  //   }, 5000)
-  //   return () => clearInterval(interval)
-  // }, [count])
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (count == slider.length - 1) {
+        return setCount(0)
+      }
+      setCount(count + 1)
+    }, 5000)
+    return () => clearInterval(interval)
+  }, [count])
 
   return (
     <div className="App">
